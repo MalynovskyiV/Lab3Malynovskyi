@@ -1,0 +1,78 @@
+﻿<Window x:Class="Malynovskiy03Sharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Register Person" Height="320" Width="540">
+    <ScrollViewer>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            <TextBlock
+                Grid.Column="1" Grid.Row="1"
+                FontStyle="Oblique"
+                Text="Name"/>
+            <TextBox
+                Grid.Column="1" Grid.Row="2"
+                Margin="0,20" TextWrapping="Wrap"
+                TextAlignment="Center" VerticalAlignment="Center"
+                FontSize="32" FontStyle="Oblique"
+                Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <TextBlock
+                Grid.Column="3" Grid.Row="1"
+                FontStyle="Oblique"
+                Text="Surname"/>
+            <TextBox
+                Grid.Column="3" Grid.Row="2"
+                Margin="0,20" TextWrapping="Wrap"
+                TextAlignment="Center" VerticalAlignment="Center"
+                FontSize="32" FontStyle="Oblique"
+                Text="{Binding Surname, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <TextBlock
+                Grid.Column="1" Grid.Row="3"
+                FontStyle="Oblique"
+                Text="Birthday"/>
+
+            <TextBlock
+                Grid.Column="3" Grid.Row="3"
+                FontStyle="Oblique"
+                Text="Email"/>
+            <TextBox
+                Grid.Column="3" Grid.Row="4"
+                Margin="0,20" TextWrapping="Wrap"
+                TextAlignment="Center" VerticalAlignment="Center"
+                FontSize="32" FontStyle="Oblique"
+                Text="{Binding Email, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <Viewbox Grid.Row="4" Grid.Column="1"
+                     HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+                <DatePicker
+                    FirstDayOfWeek="Monday" Name="BirthDatePicker"
+                    SelectedDate="{Binding BirthDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                    Text="{Binding BirthDateText, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}"
+                        />
+            </Viewbox>
+
+            <Button
+                Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="5"
+                Margin="80,5"
+                FontSize="32"
+                Content="Proceed"
+                Command="{Binding RegisterCommand}"
+                />
+        </Grid>
+    </ScrollViewer>
+</Window>

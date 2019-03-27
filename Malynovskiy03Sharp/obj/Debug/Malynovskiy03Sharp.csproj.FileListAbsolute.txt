@@ -1,0 +1,15 @@
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\bin\Debug\Malynovskiy03Sharp.exe.config
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\bin\Debug\Malynovskiy03Sharp.exe
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\bin\Debug\Malynovskiy03Sharp.pdb
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\obj\Debug\Malynovskiy03Sharp.csprojResolveAssemblyReference.cache
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\obj\Debug\MainWindow.baml
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\obj\Debug\PersonInfoWindow.baml
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\obj\Debug\MainWindow.g.cs
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\obj\Debug\PersonInfoWindow.g.cs
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\obj\Debug\App.g.cs
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\obj\Debug\Malynovskiy03Sharp_MarkupCompile.cache
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\obj\Debug\Malynovskiy03Sharp.g.resources
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\obj\Debug\Malynovskiy03Sharp.Properties.Resources.resources
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\obj\Debug\Malynovskiy03Sharp.csproj.GenerateResource.Cache
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\obj\Debug\Malynovskiy03Sharp.exe
+C:\Users\Vladic\Documents\Visual Studio 2013\Projects\Malynovskiy03Sharp\Malynovskiy03Sharp\obj\Debug\Malynovskiy03Sharp.pdb
